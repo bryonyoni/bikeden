@@ -1,1 +1,11 @@
-{{outlet}}
+<div id="bryPage">
+  <ul>
+    {{#each model as |bike|}}
+        <li>
+        <img src="{{bike.bikePhoto3}}" alt="{{bike.name}}" width='20px' height='20px'>
+        {{bike.name}}
+        {{bike.description}}
+        </li>
+    {{/each}}
+  </ul>
+</div>
