@@ -1,1 +1,8 @@
-{{outlet}}
+<ul>
+{{#each model as |bike|}}
+<li>
+  {{bike.name}}
+  {{#link-to 'bike' bike.id}}{{bike.name}}{{/link-to}}
+</li>
+{{/each}}
+</ul>
