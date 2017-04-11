@@ -3,19 +3,29 @@ body{
 }
 
 #bryPage{
-  background-color: #FAFAFA;
+  background-color:#FFFFFF;
   margin-right: 50px;
   margin-left: 50px;
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   list-style: none;
-  height: 1000px;
+  height: 4300px;
+}
+
+#bryImage{
+  padding-left: 60px;
+}
+
+#bryBike{
+padding-right:30px;
 }
 
 #bryDetails{
-  padding-top: 30px;
-  background-color: grey;
+  padding-top: 50px;
   padding-bottom: 154px;
+}
 
+#bryBike{
+font-size: 13px;
 }
