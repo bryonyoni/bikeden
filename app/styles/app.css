@@ -4,9 +4,18 @@ body{
 
 #bryPage{
   background-color: #FAFAFA;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
   padding-top: 40px;
   padding-left: 20px;
-  padding-right: 10px;
+  padding-right: 20px;
+  list-style: none;
+  height: 1000px;
+}
+
+#bryDetails{
+  padding-top: 30px;
+  background-color: grey;
+  padding-bottom: 154px;
+
 }

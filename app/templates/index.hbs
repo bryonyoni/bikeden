@@ -1,11 +1,26 @@
 <div id="bryPage">
-  <ul>
-    {{#each model as |bike|}}
-        <li>
-        <img src="{{bike.bikePhoto3}}" alt="{{bike.name}}" width='20px' height='20px'>
-        {{bike.name}}
-        {{bike.description}}
-        </li>
-    {{/each}}
-  </ul>
+  <div class="col-md-9" id="bryBikerows">
+    <ul>
+      {{#each model as |bike|}}
+        <div id="bryBike">
+          <div class="col-md-6" id="bryImage">
+            <img src="{{bike.bikePhoto3}}" alt="{{bike.name}}" width='300px' height='300px'>
+          </div>
+          <div class="col-md-6" id="bryDetails">
+            <h3>{{bike.name}}</h3>
+            <br>
+            {{bike.description}}
+          </div>
+        </div>
+
+        <hr>
+
+
+      {{/each}}
+    </ul>
+  </div>
+  <div class="col-md-3" id="brySideBar">
+
+  </div>
+
 </div>
