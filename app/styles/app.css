@@ -1,8 +1,9 @@
 @font-face {
   font-family: infected;
-  src: url();
+  src: url("../infected.ttf");
 }
 
-#jad-navbar {
-  padding-bottom: 5px;
+#jad-navbar-brand {
+  font-family: infected;
+  color: white;
 }
