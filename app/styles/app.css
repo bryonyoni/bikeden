@@ -11,6 +11,7 @@ body{
   padding-right: 20px;
   list-style: none;
   height: 4300px;
+
 }
 
 #bryImage{
@@ -24,8 +25,13 @@ padding-right:30px;
 #bryDetails{
   padding-top: 50px;
   padding-bottom: 154px;
+  border-right: 1px solid #EEEEEE;
 }
 
 #bryBike{
 font-size: 13px;
+}
+
+#bryBrands img{
+  margin-left:10px; 
 }
