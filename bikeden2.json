@@ -38,7 +38,7 @@
     "details2": "The Bolt C-Spec uses modern technology to create a riding experience superior to other similarly sized machines. Fuel injection and ignition timing maps have been set to deliver class-leading performance with strong low- and mid-range torque sure to bring a smile to every rider’s face.",
     "manufacturer": "yamaha-motors"
   },{
-    "bikePhoto1": "http://www.totalmotorcycle.com/photos/2010models/2010-BMW-S1000RRh.jpg",
+    "bikePhoto1": "https://i0.wp.com/ridermagazine.com/wp-content/uploads/2016/11/BMW-S1000RR.jpg?resize=620%2C413",
     "bikePhoto2": "http://motorcycle.com.vsassets.com/blog/wp-content/uploads/2014/09/093014-2015-bmw-s1000rr-P90162325_highRes.jpg",
     "bikePhoto3": "https://s-media-cache-ak0.pinimg.com/originals/0c/33/b6/0c33b669e1abfe2608d90642fbb859e6.jpg",
     "name": "BMW S 1000 RR",
@@ -52,7 +52,7 @@
     "manufacturer": "BMW-Motorrad"
   }, {
     "bikePhoto1": "http://www.cycleworld.com/sites/cycleworld.com/files/styles/medium_1x_/public/wp-content/uploads/2014/12/2015-BMW-R1200R-studio-7.jpg?itok=60Vivmo8",
-    "bikePhoto2": "http://www.totalmotorcycle.com/motorcycles/2013models/2013-BMW-R1200R4.jpg",
+    "bikePhoto2": "https://www.motorcycleparts-hornig.com/press/2015/bmw-r1200r-2015-3g.jpg",
     "bikePhoto3": "https://s1.cdn.autoevolution.com/images/moto_gallery/BMW-R-1200-R-10838_5.jpg",
     "name": "BMW R 1200 R",
     "engineType": "Air/liquid-cooled four stroke flat twin engine",
@@ -78,7 +78,7 @@
     "manufacturer": "BMW-Motorrad"
   },{
     "bikePhoto1": "https://motorbikewriter.com/content/uploads/2016/08/7263.jpg",
-    "bikePhoto2": "http://motorcycle.com.vsassets.com/blog/wp-content/uploads/2014/09/093014-2015-bmw-s1000rr-P90162325_highRes.jpg",
+    "bikePhoto2": "http://bikesdata.com/data/images/Harley-Davidson-Street-500a.jpg",
     "bikePhoto3": "https://cdp.azureedge.net/products/USA/HD/2017/MC/CRUISER/STREET_500/50/VIVID_BLACK/2000000002.jpg",
     "name": "Harley-Davidson street 500",
     "engineType": "Liquid-cooled, Revolution X V-Twin",
@@ -103,7 +103,7 @@
     "details2": " We counterbalance the engine, which means we can bolt it directly to the frame. It keeps the styling tight at the center of the bike. It lets the rider feel the pulse of the V-Twin. Yet there aren’t any vibrations rattling the fillings out of your teeth. What’s good gets even better. The S Series gets a power upgrade to the Screamin’ Eagle; Air-Cooled Twin Cam 110B engine. More power is always a Harley-Davidson tradition.",
     "manufacturer": "Harley-Davidson"
   }, {
-    "bikePhoto1": "http://www.totalmotorcycle.com/motorcycles/2017/2017-Harley-Davidson-Wide-Glide4.jpg",
+    "bikePhoto1": "http://www.powersportsnetwork.com/powersportsdlr/images/NewVehicles/2011/2011_5_199597_VividBlackwithFlames.jpg",
     "bikePhoto2": "https://s-media-cache-ak0.pinimg.com/736x/d3/09/4f/d3094f2939ea915305e7f95c39e0e3bc.jpg",
     "bikePhoto3": "https://s-media-cache-ak0.pinimg.com/originals/06/7d/52/067d52218be2646960346ef17390263d.jpg",
     "name": "Harley-Davidson Wide Glide",
@@ -140,19 +140,6 @@
     "yearOfManufacture": "2016",
     "details": "Every detail of the 959 Panigale is a tribute to the Ducati racing tradition. A wider and more protective screen that ensures greater aerodynamic penetration, new air vents on the fairing and new rear-view mirrors complete the front fairing.",
     "details2": "The new tail, divided into two sections, completes the design of the 959 Panigale, further enhanced by new details such as differently shaped footpegs, made from machined billet aluminium, for the perfect combination of beauty and functionality.As with the bigger 1299 Panigale, the set-up of the 959 Panigale is entrusted to a compact monocoque structure, in fused aluminium to increase its resistance, using the Superquadro engine as a structural element.",
-    "manufacturer": "Ducati"
-  }, {
-    "bikePhoto1": "https://i.ytimg.com/vi/NNP6TAdmsQs/maxresdefault.jpg",
-    "bikePhoto2": "https://ultimatemotorcycling.com/wp-content/uploads/2016/10/2017-Ducati-SuperSport.jpg",
-    "bikePhoto3": "http://www.cycleworld.com/sites/cycleworld.com/files/styles/large_1x_/public/images/2016/11/cw1116-2017-ducati-1299-superleggera-image-05_0.jpg?itok=-jtqAYQ9&fc=50,50",
-    "name": "Ducati 1299 PANIGALE",
-    "engineType": "Superquadro: L-twin cylinder, 4 valve per cylinder, Desmodromic, liquid cooled",
-    "transmission": "	6 speed with Ducati Quick Shift (DQS) up/down",
-    "price": "30000",
-    "description": "The most exciting Superbike on the market today, just what every fan has ever dreamed of.",
-    "yearOfManufacture": "2017",
-    "details": "The 1299 Panigale is designed to provide maximum aerodynamic efficiency. Style and function merge to create a masterpiece of dynamic design.The profile of the 1299 Panigale is embellished by the lines of the new fairings, by the rearview mirrors and an innovative windshield. Air intakes and a new tailpiece add to the racing looks.",
-    "details2": "Extreme levels of performance are also due to a close attention to detail: for this reason the swingarm pivot has been lowered by 4mm to enhance the reactive character of the 1299 Panigale and improve traction in all conditions.The new seat perfectly brings motorcycle and rider together as one. Footpegs made from billet aluminium are race-derived. Built to focus on the thrill of racing.",
     "manufacturer": "Ducati"
   }]
 }

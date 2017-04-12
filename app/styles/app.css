@@ -28,11 +28,12 @@ body{
   background-color:#FFFFFF;
   margin-right: 50px;
   margin-left: 50px;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 80px;
   list-style: none;
-  height: 4400px;
+  height: 2900px;
 
 }
 
@@ -46,7 +47,7 @@ padding-right:30px;
 
 #bryDetails{
   padding-top: 50px;
-  padding-bottom: 155px;
+  padding-bottom:10px;
   border-right: 1px solid #EEEEEE;
 }
 
@@ -92,6 +93,10 @@ font-size: 13px;
   text-align: center;
   font-family: infected;
   font-size: 50px;
+}
+
+.author{
+  text-align: centre;
 }
 
 .col-md-4{
