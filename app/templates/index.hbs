@@ -13,7 +13,7 @@
             <h4 id="bry-bike-name">{{bike.name}}</h4>
             <br>
             <p id="bry-bike-details">{{bike.description}}</p>
-            <button type="button" class="btn btn-danger">More</button>
+             {{#link-to 'bike' bike.id}}<button type="button" class="btn btn-danger">More</button>{{/link-to}}
               <hr>
           </div>
 

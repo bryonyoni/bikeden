@@ -4,10 +4,9 @@ This README outlines the details of collaborating on Bikeden application.
 A short introduction of this app could easily go here.
 
 ##Creators
-
-1. Bry Onyoni
-2. Morris Mburu
-3. Jaden Lesuk
+1. Jaden Lesuk
+2. Bry Onyoni
+3. Morris Mburu
 4. Al Aganya.
 
 ## Prerequisites
