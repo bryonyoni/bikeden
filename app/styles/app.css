@@ -1,7 +1,17 @@
 
 @font-face {
   font-family: infected;
-  src: url("../infected.ttf");
+  src: url("../INFECTED.ttf");
+}
+
+@font-face {
+  font-family: roboto;
+  src: url("../Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: HardStones;
+  src: url("../Hardstones.ttf");
 }
 
 #jad-navbar-brand {
@@ -9,6 +19,7 @@
   color: white;
   font-size: 45px;
 }
+
 body{
   background-color: #EAEAEA;
 }
@@ -46,4 +57,14 @@ font-size: 13px;
 #bryBrands img{
   margin-left:10px;
 
+}
+
+#bry-bike-name{
+  font-family: roboto;
+}
+
+#bry-bike-details{
+  font-family: roboto;
+  font-size: 15px;
+  color: #616161;
 }
