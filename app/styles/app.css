@@ -32,7 +32,7 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   list-style: none;
-  height: 4500px;
+  height: 4400px;
 
 }
 
@@ -67,4 +67,19 @@ font-size: 13px;
   font-family: roboto;
   font-size: 15px;
   color: #616161;
+}
+
+#brysideBar h3{
+ font-family: roboto;
+}
+
+#bryNewsImg{
+  padding-left:10px;
+}
+#bryNewsImg img{
+  margin-bottom: 20px;
+}
+
+#bryNewsDetails p{
+  margin-bottom: 37px;
 }
