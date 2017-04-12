@@ -7,7 +7,8 @@
 #jad-navbar-brand {
   font-family: infected;
   color: white;
-  font-size: 40px;
+  font-size: 45px;
+}
 body{
   background-color: #EAEAEA;
 }
@@ -34,7 +35,7 @@ padding-right:30px;
 
 #bryDetails{
   padding-top: 50px;
-  padding-bottom: 154px;
+  padding-bottom: 155px;
   border-right: 1px solid #EEEEEE;
 }
 
@@ -43,6 +44,6 @@ font-size: 13px;
 }
 
 #bryBrands img{
-  margin-left:10px; 
+  margin-left:10px;
 
 }
