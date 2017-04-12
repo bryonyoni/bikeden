@@ -1,8 +1,36 @@
-<ul>
-{{#each model as |bike|}}
-<li>
-  {{bike.name}}
-  {{#link-to 'bike' bike.id}}{{bike.name}}{{/link-to}}
-</li>
-{{/each}}
-</ul>
+
+<div id="bryPage">
+  <div class="col-md-9" id="bryBikerows">
+    <ul>
+      {{#each model as |bike|}}
+        <div id="bryBike">
+
+          <div class="col-md-6" id="bryImage">
+            <img src="{{bike.bikePhoto3}}" alt="{{bike.name}}" width='250px' height='200px'>
+          </div>
+
+          <div class="col-md-6" id="bryDetails">
+            <h4>{{bike.name}}</h4>
+            <br>
+            <p>{{bike.description}}</p>
+            <button type="button" class="btn btn-danger">More</button>
+              <hr>
+          </div>
+
+        </div>
+
+      {{/each}}
+    </ul>
+  </div>
+  <div class="col-md-3" id="brySideBar">
+    <h2>Famous Brands</h2>
+    <div id="bryBrands">
+      <a href="http://www.bmw-motorrad.co.uk/uk/en/index.html"><img src="http://pngimg.com/uploads/car_logo/car_logo_PNG1641.png" alt="bmw" width="40" height="40"></a>
+      <a href="http://www.yamaha-motor.com/"><img src="http://seeklogo.com/images/Y/Yamaha-logo-A3BB6DB4EB-seeklogo.com.png" alt="yamaha" width="40" height="40"></a>
+      <a href="http://www.harley-davidson.com/content/h-d/en_US/home.html"><img src="https://www.1000ps.at/magazin/harley/logo.gif" alt="Harley" width="40" height="40"></a>
+      <a href="http://www.ducati.com/index.do"><img src="https://logo-png.com/logo/ducati-logo.png" alt="ducati" width="40" height="40"></a>
+    </div>
+
+  </div>
+
+</div>

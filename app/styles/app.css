@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: infected;
   src: url("../infected.ttf");
@@ -7,4 +8,41 @@
   font-family: infected;
   color: white;
   font-size: 40px;
+body{
+  background-color: #EAEAEA;
+}
+
+#bryPage{
+  background-color:#FFFFFF;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style: none;
+  height: 4300px;
+
+}
+
+#bryImage{
+  padding-left: 60px;
+}
+
+#bryBike{
+padding-right:30px;
+}
+
+#bryDetails{
+  padding-top: 50px;
+  padding-bottom: 154px;
+  border-right: 1px solid #EEEEEE;
+}
+
+#bryBike{
+font-size: 13px;
+}
+
+#bryBrands img{
+  margin-left:10px; 
+
 }
