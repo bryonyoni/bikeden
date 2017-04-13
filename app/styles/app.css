@@ -60,7 +60,7 @@ font-size: 13px;
 
 }
 
-<<<<<<< HEAD
+
 
 .shape {
 	width: 200px;
@@ -201,10 +201,13 @@ font-size: 13px;
 
 .container{
   padding-bottom: 200px;
+  background-color: white;
 }
+
 .container2 {
   padding-top: 20px;
-=======
+}
+
 #bry-bike-name{
   font-family: roboto;
 }
@@ -378,5 +381,4 @@ font-size: 13px;
 #detail-well{
   background-color: white;
   margin-bottom: 50px;
->>>>>>> 3ea4adca0f48f7a918f4651e4311a0cfa1c141e6
 }
