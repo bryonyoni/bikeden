@@ -225,3 +225,12 @@ font-size: 13px;
 #news-title{
   margin-top: -8px;
 }
+
+#detail-well h3{
+  text-align: center;
+}
+
+#detail-well{
+  background-color: white;
+  margin-bottom: 50px;
+}
