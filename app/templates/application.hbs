@@ -1,5 +1,21 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<!-- contains all the content of the navbar including the name of the webpage , link to contact and accessories routes.-->
+<nav class="navbar navbar-static-top navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      {{#link-to 'index'}}<p class="navbar-brand" id="jad-navbar-brand">BIKEDEN</p>{{/link-to}}
+    </div>
+      <ul class="nav navbar-nav pull-right">
+      <li>
+        {{#link-to 'contact'}}
+          <button class="btn btn-danger"><span class="glyphicon glyphicon-envelope"></span> CONTACT &#x21AC;</button>
+        {{/link-to}}
+      </li>
+      <!-- <li>
+        {{#link-to 'contact'}}
+          <button class="btn btn-danger"><span class="glyphicon glyphicon-cd"></span> ACCESSORIES &#x21AC;</button>
+        {{/link-to}}
+      </li> -->
+    </ul>
+    </div>
+</nav>
 {{outlet}}

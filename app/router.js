@@ -2,13 +2,15 @@ import Ember from 'ember';
 import config from './config/environment';
 
 const Router = Ember.Router.extend({
-  location: config.locationType,
-  rootURL: config.rootURL
+	location: config.locationType,
+	rootURL: config.rootURL
 });
 
-Router.map(function() {
-  this.route('contact');
-  this.route('bike-details', {path: '/bike-details/:bike_id'});
+Router.map(function () {
+	this.route('contact');
+	this.route('bike', {
+		path: '/bike/:bike_id'
+	});
 });
 
 export default Router;
