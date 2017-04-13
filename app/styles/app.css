@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: infected;
   src: url(../INFECTED.ttf);
@@ -15,17 +14,17 @@
 }
 
 #jad-navbar-brand {
-  font-family: infected;
+  font-family: 'Faster One', cursive;
   color: white;
   font-size: 45px;
 }
 
-body{
+body {
   background-color: #EAEAEA;
 }
 
-#bryPage{
-  background-color:#FFFFFF;
+#bryPage {
+  background-color: #FFFFFF;
   margin-right: 50px;
   margin-left: 50px;
   padding-top: 20px;
@@ -34,85 +33,84 @@ body{
   padding-bottom: 80px;
   list-style: none;
   height: 2900px;
-
 }
 
-#bryImage{
+#bryImage {
   padding-left: 60px;
 }
 
-#bryBike{
-padding-right:30px;
+#bryBike {
+  padding-right: 30px;
 }
 
-#bryDetails{
+#bryDetails {
   padding-top: 50px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
   border-right: 1px solid #EEEEEE;
 }
 
-#bryBike{
-font-size: 13px;
+#bryBike {
+  font-size: 13px;
 }
 
-#bryBrands img{
-  margin-left:10px;
-
+#bryBrands img {
+  margin-left: 10px;
 }
-
-
 
 .shape {
-	width: 200px;
-	height: 200px;
-	position: relative;
+  width: 200px;
+  height: 200px;
+  position: relative;
 }
 
-	.shape .overlay {
-		display:block;
-		width: 200px;
-		height: 200px;
-		position: absolute;
-		top:-5px;
-		left:-5px;
-		-webkit-transform: scale(1,1);
-		-webkit-transition-timing-function: ease-out;
-		-webkit-transition-duration: 0.6s;
-		-moz-transform: scale(1,1);
-		-moz-transition-timing-function: ease-out;
-		-moz-transition-duration: 0.6s;
-		transform: scale(1,1);
-		transition-timing-function: ease-out;
-		transition-duration: 0.6s;
-		z-index:500;
-		/* allow user to actually perform actions underneath this layer */
-		pointer-events:none;
-		background-repeat: no-repeat;
-	}
+.shape .overlay {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  -webkit-transform: scale(1, 1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.6s;
+  -moz-transform: scale(1, 1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 0.6s;
+  transform: scale(1, 1);
+  transition-timing-function: ease-out;
+  transition-duration: 0.6s;
+  z-index: 500;
+  /* allow user to actually perform actions underneath this layer */
+  pointer-events: none;
+  background-repeat: no-repeat;
+}
+
 
 /* different shapes */
+
 .shape .overlay.round {
-	background: url(round.png);
+  background: url(round.png);
 }
 
 .shape .overlay.hexagon {
-	background: url(hexagon.png);
+  background: url(hexagon.png);
 }
 
 .shape .overlay.pentagon {
-	background: url(pentagon.png);
+  background: url(pentagon.png);
 }
+
 
 /* hover effect */
-.shape:hover .overlay {
-	-webkit-transform: scale(1.07,1.07);
-	-webkit-transition-timing-function: ease-out;
-	-webkit-transition-duration: 0.3s;
-	-moz-transform: scale(1.07,1.07);
-	-moz-transition-timing-function: ease-out;
-	-moz-transition-duration: 0.3s;
-}
 
+.shape:hover .overlay {
+  -webkit-transform: scale(1.07, 1.07);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.3s;
+  -moz-transform: scale(1.07, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 0.3s;
+}
 
 .shape:hover .bg {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
@@ -120,7 +118,7 @@ font-size: 13px;
   -moz-opacity: 0.8;
   -khtml-opacity: 0.8;
   opacity: 0.8;
-  display:block;
+  display: block;
 }
 
 .shape:hover .details {
@@ -129,77 +127,76 @@ font-size: 13px;
   -moz-opacity: 1;
   -khtml-opacity: 1;
   opacity: 1;
-	z-index:450;
-  display:block;
+  z-index: 450;
+  display: block;
 }
-
 
 
 /* content styles */
-.shape .bg,
-.shape .details {
-	position: absolute;
-	width: 300px;
-	height:300px;
-	display:table-cell;
-	vertical-align:middle;
-	text-align:center;
-	top:0;
-	left:0;
-	opacity:0;
-	-webkit-transition: all 0.3s ease;
+
+.shape .bg, .shape .details {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-	display:none;
+  display: none;
 }
 
 .shape .bg {
-	background: #4b5a78;
+  background: #4b5a78;
 }
 
 .shape .details span.heading {
-	font-family: 'Roboto Condensed', serif;
-	font-size:30px;
-	display:block;
-	margin-top:70px;
-	color:#fff;
-	text-decoration:none;
+  font-family: 'Roboto Condensed', serif;
+  font-size: 30px;
+  display: block;
+  margin-top: 70px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .shape .details p {
-	font-family: 'Abel', sans-serif;
-	color:#fff;
-	width: 70%;
-	font-size:14px;
-	margin:0 auto;
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+  width: 70%;
+  font-size: 14px;
+  margin: 0 auto;
 }
 
 .shape a.button {
-	padding:5px 15px;
-	font-family: 'Abel', sans-serif;
-	font-size:12px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	-ms-border-radius: 20px;
-	-o-border-radius: 20px;
-	border-radius: 20px;
-	background: #2f3644;
-	text-decoration:none;
-	color:#fff;
-	display:block;
-	width:50px;
-	margin:0 auto;
-	text-align:center;
-	margin-top:15px;
+  padding: 5px 15px;
+  font-family: 'Abel', sans-serif;
+  font-size: 12px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  background: #2f3644;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
 }
 
-	.shape a.button:hover {
-		background: #fff;
-		color: #2f3644;
-	}
+.shape a.button:hover {
+  background: #fff;
+  color: #2f3644;
+}
 
-.container{
+.container {
   padding-bottom: 200px;
   background-color: white;
 }
@@ -208,177 +205,178 @@ font-size: 13px;
   padding-top: 20px;
 }
 
-#bry-bike-name{
+#bry-bike-name {
   font-family: roboto;
 }
 
-#bry-bike-details{
+#bry-bike-details {
   font-family: roboto;
   font-size: 15px;
   color: #616161;
 }
 
-#brysideBar h3{
- font-family: roboto;
+#brysideBar h3 {
+  font-family: roboto;
 }
 
-#bryNewsImg{
-  padding-left:10px;
+#bryNewsImg {
+  padding-left: 10px;
 }
-#bryNewsImg img{
+
+#bryNewsImg img {
   margin-bottom: 20px;
 }
 
-#bryNewsDetails p{
+#bryNewsDetails p {
   margin-bottom: 37px;
 }
 
-.well{
+.well {
   margin: 50px 50px 10px 50px;
 }
 
-.bike-page{
+.bike-page {
   text-align: center;
   font-family: infected;
   font-size: 50px;
 }
 
-.author{
+.author {
   text-align: centre;
 }
 
-.col-md-4{
+.col-md-4 {
   text-align: center;
 }
 
-#albody{
- background-color: black;
- text-align: center;
- overflow: hidden;
- color: black;
+#albody {
+  background-color: black;
+  text-align: center;
+  overflow: hidden;
+  color: black;
 }
 
-#alheader{
- min-height: 20vh;
- min-width: 100vw;
- background-color:white;
- text-align:center;
- padding-top: 20px;
- color: #51C8A4 ;
- background-color: black;
- /*background-image: url(https://s-media-cache-ak0.pinimg.com/originals/11/d1/4c/11d14cc154105a4dc25ffe29f4bc91e3.gif (79KB) );*/
- background-size: contain;
+#alheader {
+  min-height: 20vh;
+  min-width: 100vw;
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+  color: #51C8A4;
+  background-color: black;
+  /*background-image: url(https://s-media-cache-ak0.pinimg.com/originals/11/d1/4c/11d14cc154105a4dc25ffe29f4bc91e3.gif (79KB) );*/
+  background-size: contain;
 }
 
-.jumbotron{
- background:#c0c0c0 ;
- opacity: 0.6;
+.jumbotron {
+  background: #c0c0c0;
+  opacity: 0.6;
 }
 
-.jumbotron:hover{
- opacity: 1;
+.jumbotron:hover {
+  opacity: 1;
 }
 
-.feedback{
- height: 50px;
+.feedback {
+  height: 50px;
 }
 
-#alheader:hover{
- color: white;
+#alheader:hover {
+  color: white;
 }
 
-#aldiva{
- background-image: url(http://innovix.com.do/Call-Center.jpg);
- background-size: cover;
- background-repeat: no-repeat;
- background-color: #EFF5F7 ;
- min-height: 80vh;
- min-width: 50vw;
+#aldiva {
+  background-image: url(http://innovix.com.do/Call-Center.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EFF5F7;
+  min-height: 80vh;
+  min-width: 50vw;
 }
 
-#aldivb{
- background-image: url(http://storiesfromreality.tv/data/style/grafik/feedback.gif);
- background-size: contain;
- background-color: #EFF0F7 ;
- min-height: 80vh;
- min-width: 50vw;
- padding-top: 10px;
- padding-right: 20px;
+#aldivb {
+  background-image: url(http://storiesfromreality.tv/data/style/grafik/feedback.gif);
+  background-size: contain;
+  background-color: #EFF0F7;
+  min-height: 80vh;
+  min-width: 50vw;
+  padding-top: 10px;
+  padding-right: 20px;
 }
 
 .fa {
- padding: 20px 20px 20px 20px;
- font-size: 20px;
- width: 50px;
- height: 50px;
- text-align: center;
- text-decoration: none;
- margin: 5px 5px;
- border-radius: 50%;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
 }
 
 .fa:hover {
-   opacity: 1;
-   background-color: black;
+  opacity: 1;
+  background-color: black;
 }
 
 .fa-facebook {
- background: #3B5998 ;
- color: white;
+  background: #3B5998;
+  color: white;
 }
 
 .fa-twitter {
- background: #55ACEE ;
- color: white;
+  background: #55ACEE;
+  color: white;
 }
 
 .fa-google {
- background: #dd4b39 ;
- color: white;
+  background: #dd4b39;
+  color: white;
 }
 
 .fa-linkedin {
- background: #007bb5 ;
- color: white;
+  background: #007bb5;
+  color: white;
 }
 
 .fa-youtube {
- background: #bb0000 ;
- color: white;
+  background: #bb0000;
+  color: white;
 }
 
 .fa-instagram {
- background: #125688 ;
- color: white;
+  background: #125688;
+  color: white;
 }
 
-.alcontact{
- padding-top: 150px;
- color: white;
+.alcontact {
+  padding-top: 150px;
+  color: white;
 }
 
-.alcontact:hover{
- text-transform: uppercase;
- color: gold;
- opacity: 0.7;
+.alcontact:hover {
+  text-transform: uppercase;
+  color: gold;
+  opacity: 0.7;
 }
 
-.a{
- background-color: #B4D3EF ;
- height: 40px;
- text-align: center;
- padding: 0px 0px 0px 0px;
+.a {
+  background-color: #B4D3EF;
+  height: 40px;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
 }
 
-#news-title{
+#news-title {
   margin-top: -8px;
 }
 
-#detail-well h3{
+#detail-well h3 {
   text-align: center;
 }
 
-#detail-well{
+#detail-well {
   background-color: white;
   margin-bottom: 50px;
 }
