@@ -1,17 +1,17 @@
 
 @font-face {
   font-family: infected;
-  src: url("../INFECTED.ttf");
+  src: url(../INFECTED.ttf);
 }
 
 @font-face {
   font-family: roboto;
-  src: url("../Roboto-Regular.ttf");
+  src: url(../Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: HardStones;
-  src: url("../Hardstones.ttf");
+  src: url(../Hardstones.ttf);
 }
 
 #jad-navbar-brand {
