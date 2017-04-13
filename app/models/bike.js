@@ -14,3 +14,4 @@ export default DS.Model.extend({
   details2: DS.attr(),
   manufacturer: DS.attr(),
 });
+// this is to define the incoming data from our database

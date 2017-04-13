@@ -1,1 +1,35 @@
-<h2>More information about {{model.owner}}'s {{model.type}}</h2>
+<div class="well" id="detail-well">
+  <h2 class="bike-page">{{model.name}}</h2>
+  <p class="author">By : <h4><strong>{{model.manufacturer}}</strong></h4></p>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="{{model.bikePhoto1}}" alt="" height="200" width="300">
+    </div>
+    <div class="col-md-4">
+      <img src="{{model.bikePhoto2}}" alt="" height="200" width="300">
+    </div>
+    <div class="col-md-4">
+      <img src="{{model.bikePhoto3}}" alt="" height="200" width="300">
+    </div>
+  </div>
+  <div class="">
+    <h3>Specifications :</h3>
+    <ul>
+      <li><strong>Name:</strong><br>{{model.name}}</li><br>
+      <li><strong>Year of manufacture:</strong><br>{{model.yearOfManufacture}}</li><br>
+      <li><strong>Description:</strong><br>{{model.description}}</li><br>
+      <li><strong>Engine type:</strong><br>{{model.engineType}}</li><br>
+      <li><strong>Transmission:</strong><br>{{model.transmission}}</li><br>
+      <li><strong>Price:</strong><br>$$$ {{model.price}}</li>
+      <br>
+      <h3 class="author">Inside Scoop:</h3>
+      <div class="well">
+        {{model.details}}
+      </div>
+      <div class="well">
+        {{model.details2}}
+      </div>
+    </ul>
+  </div>
+</div>

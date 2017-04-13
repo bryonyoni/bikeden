@@ -1,7 +1,13 @@
-# bikeden
+# BIKEDEN
 
-This README outlines the details of collaborating on this Ember application.
+This README outlines the details of collaborating on Bikeden application.
 A short introduction of this app could easily go here.
+
+##Creators
+1. Jaden Lesuk
+2. Bry Onyoni
+3. Morris Mburu
+4. Al Aganya.
 
 ## Prerequisites
 
@@ -15,7 +21,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <https://github.com/bryonyoni/bikeden.git>` this repository
 * `cd bikeden`
 * `npm install`
 * `bower install`
